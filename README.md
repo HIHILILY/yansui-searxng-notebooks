@@ -5,6 +5,11 @@ Local SearXNG setup notes and scripts for a small, domestic-engine search stack.
 - Maintained by: Yansui
 - License: MIT
 
+## What's inside
+- `settings.yml` - SearXNG config tuned for reachable engines
+- `run.sh` - quick container run helper
+- `LICENSE` - MIT
+
 ## Quick start
 1. Start Docker.
 2. Use this repo as the config volume for SearXNG (see `settings.yml`).
@@ -15,3 +20,4 @@ Local SearXNG setup notes and scripts for a small, domestic-engine search stack.
 ## Notes
 - Kept intentionally small.
 - No credentials included.
+- The placeholder secret key is intentional and safe to publish.
