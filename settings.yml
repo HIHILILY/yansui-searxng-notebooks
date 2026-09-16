@@ -22,7 +22,7 @@ search:
     - json
 
 server:
-  secret_key: "r2KkMnizsLE9QHRaZoSo0OcheMAZxYD"
+  secret_key: "CHANGE-ME-TO-A-LONG-RANDOM-STRING"
   image_proxy: true
 
 engines:
