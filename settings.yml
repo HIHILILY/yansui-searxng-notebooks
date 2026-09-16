@@ -1,0 +1,103 @@
+use_default_settings:
+  engines:
+    keep_only:
+      - bing
+      - bing images
+      - bing news
+      - bing videos
+      - baidu
+      - sogou
+      - sogou images
+      - sogou videos
+      - quark
+      - quark images
+      - naver
+      - naver images
+      - naver news
+      - naver videos
+
+search:
+  formats:
+    - html
+    - json
+
+server:
+  secret_key: "r2KkMnizsLE9QHRaZoSo0OcheMAZxYD"
+  image_proxy: true
+
+engines:
+  - name: bing
+    engine: bing
+    disabled: false
+    base_url: "https://cn.bing.com"
+    timeout: 8.0
+
+  - name: bing images
+    engine: bing_images
+    disabled: false
+    base_url: "https://cn.bing.com"
+    timeout: 8.0
+
+  - name: bing news
+    engine: bing_news
+    disabled: false
+    base_url: "https://cn.bing.com"
+    timeout: 8.0
+
+  - name: bing videos
+    engine: bing_videos
+    disabled: false
+    base_url: "https://cn.bing.com"
+    timeout: 8.0
+
+  - name: baidu
+    engine: baidu
+    disabled: false
+    baidu_category: general
+    categories: [general]
+    timeout: 8.0
+
+  - name: sogou
+    engine: sogou
+    disabled: false
+    timeout: 8.0
+
+  - name: sogou images
+    engine: sogou_images
+    disabled: false
+    timeout: 8.0
+
+  - name: sogou videos
+    engine: sogou_videos
+    disabled: false
+    timeout: 8.0
+
+  - name: quark
+    engine: quark
+    disabled: false
+    timeout: 8.0
+
+  - name: quark images
+    engine: quark_images
+    disabled: false
+    timeout: 8.0
+
+  - name: naver
+    engine: naver
+    disabled: false
+    timeout: 8.0
+
+  - name: naver images
+    engine: naver_images
+    disabled: false
+    timeout: 8.0
+
+  - name: naver news
+    engine: naver_news
+    disabled: false
+    timeout: 8.0
+
+  - name: naver videos
+    engine: naver_videos
+    disabled: false
+    timeout: 8.0
